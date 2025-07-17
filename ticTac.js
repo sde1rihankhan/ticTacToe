@@ -22,6 +22,7 @@ gamebtn.addEventListener("click",()=>{
 
     if(name1 === name1){
         errorMsg.textContent = "Player ke naam alag hone chahiye."
+        errorMsg.textContent = ""
         // return;
     }
 
