@@ -1,0 +1,97 @@
+body{
+    background-color:#b94392 ;
+}
+.input1{
+    width: 25rem;
+    padding: 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.input2{
+    width: 25rem;
+    padding: 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.playGame{
+    padding: 20px;
+    width: 15%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(0 255 169);
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+.itemDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body {
+    background-color: rgb(56, 210, 154);
+    text-align: center;
+} */
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 10vmin;
+    color: #b0413e;
+    background-color: white;
+}
+.ResetBtn{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #191913;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+}
+.new-btn{
+    /* margin-top: 50px; */
+    padding: 10px;
+    background-color: #191913;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+}
+.Msg{
+    color: white;
+    font-size: 5vmin;
+}
+.Msg1{
+    height: 30vmin;
+}
+#error-msg{
+    color: rgb(212, 254, 0);
+    font-size: 23px;
+}
