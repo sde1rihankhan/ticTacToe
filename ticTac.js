@@ -11,7 +11,7 @@ input2.value = ""
 
 gamebtn.addEventListener("click",()=>{
     let name1 = input1.value.trim();
-    let name2 = input1.value.trim();
+    let name2 = input2.value.trim();
 
     errorMsg.textContent = ""
 
