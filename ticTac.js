@@ -13,7 +13,7 @@ gamebtn.addEventListener("click",()=>{
     let name1 = input1.value.trim();
     let name2 = input1.value.trim();
 
-    // errorMsg.textContent = ""
+    errorMsg.textContent = ""
 
     if(name1 === "" || name2 === ""){
        errorMsg.textContent = "Dono player ke naam bharna zaroori hai."
