@@ -17,12 +17,11 @@ gamebtn.addEventListener("click",()=>{
 
     if(name1 === "" || name2 === ""){
        errorMsg.textContent = "Dono player ke naam bharna zaroori hai."
-        // return;
+        return;
     }
 
     if(name1 === name1){
         errorMsg.textContent = "Player ke naam alag hone chahiye."
-        errorMsg.textContent = ""
         // return;
     }
 
